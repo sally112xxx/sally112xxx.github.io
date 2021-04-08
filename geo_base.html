@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="38931afd2cda4d6684d47192ee217118" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_38931afd2cda4d6684d47192ee217118 = echarts.init(
+            document.getElementById('38931afd2cda4d6684d47192ee217118'), 'white', {renderer: 'canvas'});
+        var option_38931afd2cda4d6684d47192ee217118 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "scatter",
+            "coordinateSystem": "geo",
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Wuhan",
+                    "value": [
+                        114.3055,
+                        30.5928,
+                        8
+                    ]
+                },
+                {
+                    "name": "Hangzhou",
+                    "value": [
+                        120.1551,
+                        30.2741,
+                        6
+                    ]
+                },
+                {
+                    "name": "Changsha",
+                    "value": [
+                        112.9388,
+                        28.2282,
+                        10
+                    ]
+                },
+                {
+                    "name": "Xining",
+                    "value": [
+                        101.7782,
+                        36.6171,
+                        5
+                    ]
+                },
+                {
+                    "name": "Kunming",
+                    "value": [
+                        102.8329,
+                        24.8801,
+                        3
+                    ]
+                },
+                {
+                    "name": "Xining",
+                    "value": [
+                        101.7782,
+                        36.6171,
+                        5
+                    ]
+                },
+                {
+                    "name": "Changchun",
+                    "value": [
+                        125.3235,
+                        43.8171,
+                        3
+                    ]
+                },
+                {
+                    "name": "Fuzhou",
+                    "value": [
+                        119.2965,
+                        26.0745,
+                        7
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Wuhan->Beijing",
+                    "coords": [
+                        [
+                            114.3055,
+                            30.5928
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                },
+                {
+                    "name": "Hangzhou->Beijing",
+                    "coords": [
+                        [
+                            120.1551,
+                            30.2741
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Beijing",
+                    "coords": [
+                        [
+                            112.9388,
+                            28.2282
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                },
+                {
+                    "name": "Xining->Beijing",
+                    "coords": [
+                        [
+                            101.7782,
+                            36.6171
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                },
+                {
+                    "name": "Kunming->Beijing",
+                    "coords": [
+                        [
+                            102.8329,
+                            24.8801
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changchun->Beijing",
+                    "coords": [
+                        [
+                            125.3235,
+                            43.8171
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                },
+                {
+                    "name": "Fuzhou->Beijing",
+                    "coords": [
+                        [
+                            119.2965,
+                            26.0745
+                        ],
+                        [
+                            116.4074,
+                            39.9042
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u82f9\u679c\u624b\u673a\u5927\u534e\u533a\u9500\u552e\u4e1a\u7ee9\u8bc4\u5206\u6c47\u603b",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "china",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_38931afd2cda4d6684d47192ee217118.setOption(option_38931afd2cda4d6684d47192ee217118);
+    </script>
+</body>
+</html>
